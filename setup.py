@@ -34,9 +34,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url="https://github.com/jinjamator/jinjamator-plugin-output-apic",
-    packages=setuptools.find_packages(),
     include_package_data=True,
-    package_data={"": ["*"]},
+    packages=["jinjamator.plugins.output.apic"],
     install_requires=install_requires,
     license="ASL V2",
     classifiers=[
